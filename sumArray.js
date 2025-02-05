@@ -1,4 +1,4 @@
-const sumArray = (arr) => arr.reduce((num, acc) => acc += num, 0);
+const sumArray = (arr) => arr.reduce((acc, num) => acc += num, 0);
 
 console.log(sumArray([1, 2, 3, 4, 5]));
 // Output: 15
